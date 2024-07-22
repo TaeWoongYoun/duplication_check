@@ -4,5 +4,5 @@
     $id = $_POST['userid'];
     $sql = "SELECT * FROM test WHERE userid = '$id'";
     $result = mysqli_query($conn, $sql);
-    echo $result->num_rows;
+    echo mysqli_num_rows($result);
 ?>
