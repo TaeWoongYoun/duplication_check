@@ -24,5 +24,4 @@ $(document).ready(function() {
             return false;
         }
     }
-    window.ck = ck;
 })
