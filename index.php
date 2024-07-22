@@ -9,7 +9,7 @@
 </head>
 <body>
     <h1>회원가입</h1>
-    <form action="join.php" method="post">
+    <form action="join.php" method="post" onsubmit="return ck(this)">
         <p>
             <input type="text" name="userid" id="userid" placeholder="아이디" require>
             <button type="button" id="check_id">중복 확인</button>
